@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Raleway', sans-serif;
+    
     ;
 }
 
@@ -24,11 +25,11 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
 
     main {
         width: 1200px;
-        margin: 50px auto;
+        margin: 70px auto;
     }
 
     main h2 {
-        margin-top: 120px;
+        margin-top: 150px;
         margin-bottom: 25px;
         text-transform: uppercase;
         text-align: center;
@@ -36,13 +37,14 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
     }
 
     .top {
+        width: 100%;
         border-radius: 60px;
         position: relative;
         background-position: center;
-        width: 100%;
         height: 800px;
         background-image: url(/images/Leonardo_Diffusion_XL_Create_a_minimalist_and_aesthetic_gradie_1.jpg);
         background-attachment: fixed;
+        z-index: 1;
         
     }
     
@@ -50,10 +52,12 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
 
    .about-us-text {
     
-    font-size: 20px;
+    
+    font-size: 25px;
     margin-top: 5px;
     color:#fcf2f3da;
     text-align: center;
+    
     
     
    }
@@ -102,7 +106,7 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 0;
+        z-index: 2;
         
     }
     
@@ -195,7 +199,7 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
     }
 
     .navbar a:hover {
-        color:  #cf76dfe0; /* Nowy kolor tekstu po najechaniu */
+        color:  #fcf8f560; /* Nowy kolor tekstu po najechaniu */
         transition: 0.3s;
         
         
@@ -205,7 +209,7 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
      .footer {
         height: 50px; 
         margin-top: 40px; 
-        line-height: 60px;
+        line-height: 52px;
         color: #fff;
         background-color: #daf3f33f;
         text-align: center;
@@ -224,7 +228,7 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
     }
 
     .icon-box a:hover {
-        color: #cf76dfe0;
+        color: #fcf8f560;
     }
  
 
