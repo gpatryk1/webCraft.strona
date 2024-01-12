@@ -11,15 +11,87 @@
 
 body {
     min-height: 100vh;
-    background: url(/images/) no-repeat center center fixed;
-    /* background-color: #0cbaba;
-    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
+    background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
+
+
+
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
+    background-repeat: no-repeat;
+    
     }
 
+    main {
+        width: 1200px;
+        margin: 50px auto;
+    }
 
+    main h2 {
+        margin-top: 120px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #eedfdfda;
+    }
+
+    .top {
+        border-radius: 60px;
+        position: relative;
+        background-position: center;
+        width: 100%;
+        height: 800px;
+        background-image: url(/images/Leonardo_Diffusion_XL_Create_a_minimalist_and_aesthetic_gradie_1.jpg);
+        background-attachment: fixed;
+        
+    }
     
+    
+
+   .about-us-text {
+    
+    font-size: 20px;
+    margin-top: 5px;
+    color:#fcf2f3da;
+    text-align: center;
+    
+    
+   }
+
+   .text-deco {
+    position:static;
+    font-size: 30px;
+    width: 100%;
+    color: #e58c8a;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 7s linear infinite;
+   }
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color:  #faf8f8;
+        text-shadow: none;
+        
+            
+        }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color:  #f3b9b9;
+        text-shadow: 0 0 10px #f37371,
+         0 0 20px #f06260,
+         0 0 40px #f76764,
+         0 0 80px #f76b69,
+         0 0 160px #fa6f6d;
+         
+        
+            
+        }
+    
+        
+    }
 
 .header {
         position: fixed;
@@ -30,8 +102,10 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        z-index: 100;
+        z-index: 0;
+        
     }
+    
 
     .header::before {
         content: '';
@@ -52,8 +126,8 @@ body {
         left: -100%;
         width: 100%;
         height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.219), transparent);
-        transition: .5s;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.671), transparent);
+        transition: 1s;
     }
 
     .header:hover::after {
@@ -64,9 +138,10 @@ body {
     .logo {
         
         font-size: 2.5rem;
-        color: #f5d4f8;
+        color: #f8f7f8da;
         text-decoration: none;
         font-weight: 900;
+        
 
     }
 
@@ -77,12 +152,14 @@ body {
         margin-top: -10px; /* Przykładowa wartość ujemna, dostosuj według potrzeb */
         font-style: italic;
     }
-
+    .navbar {
+        z-index: 9; /* Mniejsza wartość z-index niż dla .header */
+    }
 
     .navbar a {
         position: relative;
         font-size: 22px;
-        color: #eccdf8;
+        color: #eee6f1;
         text-decoration: none;
         font-weight: 600;
         margin-left: 25px;
@@ -118,8 +195,37 @@ body {
     }
 
     .navbar a:hover {
-        color: #f19bf1d2; /* Nowy kolor tekstu po najechaniu */
-        transition: 0.5s;
+        color:  #cf76dfe0; /* Nowy kolor tekstu po najechaniu */
+        transition: 0.3s;
         
         
     }
+
+
+     .footer {
+        height: 50px; 
+        margin-top: 40px; 
+        line-height: 60px;
+        color: #fff;
+        background-color: #daf3f33f;
+        text-align: center;
+        font-size: 20px;
+        /* position: absolute; */
+        width: 100%;
+        
+        } 
+
+    .icon-box {
+        margin-left: 20px;
+    }
+
+    .icon-box a {
+        color: #fbf9fc;
+    }
+
+    .icon-box a:hover {
+        color: #cf76dfe0;
+    }
+ 
+
+    
