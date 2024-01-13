@@ -46,6 +46,8 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
         background-image: url(/images/Leonardo_Diffusion_XL_Create_a_minimalist_and_aesthetic_gradie_1.jpg);
         background-attachment: fixed;
         z-index: 1;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); /* Dodanie cienia */
+  
         
     }
     
@@ -220,6 +222,12 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
         
     }
 
+    .services-list {
+        margin: 0 auto;
+        width: 200px;
+        text-align: center;
+    }
+
 
      .footer {
         height: 50px; 
@@ -247,4 +255,21 @@ background-image: linear-gradient(315deg, #eec0c6 0%, #e58c8a 74%);
     }
  
 
-    
+    .prices-tabel {
+        margin: 0 auto;
+        background-color: #e58c8a;
+
+    }
+    .prices-tabel td {
+        padding: 10px 30px;
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 36px;
+        
+    }
+    .contact .fas {
+        margin-right: 10px;
+
+    }
